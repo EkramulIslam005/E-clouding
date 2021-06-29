@@ -243,7 +243,7 @@ a {
 
 /*Cards*/
 .card {
-  width: 40rem;
+  width: 35rem;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 20px 10px;
@@ -267,4 +267,33 @@ a {
 }
 .card--secondary {
   background: var(--color-secondary);
+}
+/* Plans */
+.plan__name {
+  font-size: 2.4rem;
+  color: #fff;
+  margin-bottom: 0;
+}
+.plan__price {
+  font-size: 6rem;
+  color: #fff;
+}
+.plan__billing-cycle {
+  font-size: 2.4rem;
+  font-weight: lighter;
+}
+.plan__description {
+  font-size: 2rem;
+  color: #fff;
+  display: block;
+  margin-top: 5px;
+}
+.card__header {
+  background: var(--color-secondary);
+}
+.card__header .badge--secondary {
+  background: #04c1e2;
+}
+.plan .card .card__content {
+  padding: 1rem 2rem;
 }
