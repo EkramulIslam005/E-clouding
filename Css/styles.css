@@ -615,80 +615,161 @@ a {
     transform: scale(0);
     opacity: 0;
   }
+  3% {
+    transform: scale(0.03);
+    opacity: 0.03;
+  }
   5% {
+    transform: scale(0.05);
+    opacity: 0.05;
   }
   10% {
     transform: scale(0.1);
     opacity: 0.1;
   }
+  8% {
+    transform: scale(0.08);
+    opacity: 0.08;
+  }
+  13% {
+    transform: scale(0.13);
+    opacity: 0.13;
+  }
   15% {
     transform: scale(0.15);
     opacity: 0.15;
+  }
+  18% {
+    transform: scale(0.18);
+    opacity: 0.18;
   }
   20% {
     transform: scale(0.2);
     opacity: 0.2;
   }
+  23% {
+    transform: scale(0.23);
+    opacity: 0.23;
+  }
   25% {
     transform: scale(0.25);
     opacity: 0.25;
   }
-
+  28% {
+    transform: scale(0.28);
+    opacity: 0.28;
+  }
   30% {
     transform: scale(0.3);
     opacity: 0.3;
+  }
+  33% {
+    transform: scale(0.33);
+    opacity: 0.33;
   }
   35% {
     transform: scale(0.35);
     opacity: 0.35;
   }
+  38% {
+    transform: scale(0.38);
+    opacity: 0.38;
+  }
   40% {
     transform: scale(0.4);
     opacity: 0.4;
+  }
+  43% {
+    transform: scale(0.43);
+    opacity: 0.43;
   }
   45% {
     transform: scale(0.45);
     opacity: 0.45;
   }
+  48% {
+    transform: scale(0.48);
+    opacity: 0.48;
+  }
   50% {
     transform: scale(0.5);
     opacity: 0.5;
+  }
+  53% {
+    transform: scale(0.53);
+    opacity: 0.53;
   }
   55% {
     transform: scale(0.55);
     opacity: 0.55;
   }
+  58% {
+    transform: scale(0.58);
+    opacity: 0.58;
+  }
   60% {
     transform: scale(0.6);
     opacity: 0.6;
+  }
+  63% {
+    transform: scale(0.63);
+    opacity: 0.63;
   }
   65% {
     transform: scale(0.65);
     opacity: 0.65;
   }
+  68% {
+    transform: scale(0.68);
+    opacity: 0.68;
+  }
   70% {
     transform: scale(0.7);
     opacity: 0.7;
+  }
+  73% {
+    transform: scale(0.73);
+    opacity: 0.73;
   }
   75% {
     transform: scale(0.75);
     opacity: 0.75;
   }
+  78% {
+    transform: scale(0.78);
+    opacity: 0.78;
+  }
   80% {
     transform: scale(0.8);
     opacity: 0.8;
+  }
+  83% {
+    transform: scale(0.83);
+    opacity: 0.83;
   }
   85% {
     transform: scale(0.85);
     opacity: 0.85;
   }
+  88% {
+    transform: scale(0.88);
+    opacity: 0.88;
+  }
   90% {
     transform: scale(0.9);
     opacity: 0.9;
   }
+  93% {
+    transform: scale(0.93);
+    opacity: 0.93;
+  }
   95% {
     transform: scale(0.95);
     opacity: 0.95;
+  }
+  98% {
+    transform: scale(0.98);
+    opacity: 0.98;
   }
   100% {
     transform: scale(1);
