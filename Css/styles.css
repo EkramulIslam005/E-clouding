@@ -263,7 +263,7 @@ a {
 .card {
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 0 20px 10px;
+  box-shadow: 0 0 30px 5px;
 }
 
 .card__header,
@@ -287,12 +287,15 @@ a {
 }
 /* Plans */
 .plan {
-  width: 35rem;
+  transition: transform 0.25s;
 }
 .plan__name {
   font-size: 2.4rem;
   color: #fff;
   margin-bottom: 0;
+}
+.plan--popular {
+  transform: scale(1.1);
 }
 .plan--popular .card__header {
   position: relative;
@@ -304,6 +307,12 @@ a {
   position: absolute;
   right: 5%;
   top: -6px;
+}
+.plan:hover {
+  transform: scale(1.05);
+}
+.plan--popular:hover {
+  transform: scale(1.15);
 }
 .plan__price {
   font-size: 6rem;
@@ -319,14 +328,17 @@ a {
   display: block;
   margin-top: 5px;
 }
-.card__header {
-  background: var(--color-secondary);
+
+.plan .card--secondary .badge--secondary {
+  background-color: #00afce;
 }
-.card__header .badge--secondary {
-  background: #04c1e2;
+.plan .card--primary .badge--primary {
+  background-color: #0c5bc2;
 }
-.plan .card .card__content {
+.plan .card .card__content,
+.plan .plan--popular .card .card__content {
   padding: 1rem 2rem;
+  background-color: #e2e2e2;
 }
 
 @media screen and (min-width: 1000px) {
@@ -410,7 +422,9 @@ a {
 @media screen and (min-width: 1000px) {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 0;
+  }
+  .grid--1x3 {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -919,7 +933,7 @@ a {
   }
 }
 /*Domain Block*/
-.block__domain .input-group {
+.block-domain .input-group {
   box-shadow: 0 0 40px 10px rgb(201, 201, 201);
   border: 0;
   margin: 4rem auto;
@@ -939,4 +953,19 @@ a {
   .domain__block-prices {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
+}
+
+/*plans Block*/
+.block-plans .plan .card {
+  box-shadow: none;
+}
+.block-plans .grid {
+  gap: 8rem 5rem;
+}
+.block-plans .card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.block-plans .plan--popular {
+  box-shadow: 0 10px 40px 1px;
 }
