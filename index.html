@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foodiefy</title>
     <link rel="stylesheet" href="Css/styles.css" />
-    <link rel="stylesheet" href="Css/normalize (2)" />
+    <link rel="stylesheet" href="Css/normalize.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
@@ -14,69 +14,90 @@
     />
   </head>
   <body>
-    <div class="block container block-plans">
-      <div class="grid grid--1x3">
-        <div class="plan">
-          <div class="card">
-            <header class="card__header card--secondary">
-              <h3 class="plan__name">Entry</h3>
-              <span class="plan__price">$14</span>
-              <span class="plan__billing-cycle">/month</span>
-              <span class="badge badge--secondary badge--small">10% OFF</span>
-              <span class="plan__description">East start on the cloud</span>
-            </header>
-            <div class="card__content">
-              <ul class="list list--tick">
-                <li class="list__item">Unlimited Websites</li>
-                <li class="list__item">Unlimited Bandwidth</li>
-                <li class="list__item">100 GB SSD Sotrage</li>
-                <li class="list__item">3 GB RAM</li>
-              </ul>
-              <button class="btn btn--outline btn--block">Buy Now</button>
-            </div>
+    <section class="container">
+      <header class="block__header">
+        <h2>Host On The Cloud To Keep Growing</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, nulla.
+        </p>
+      </header>
+      <article class="block">
+        <div class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <span class="icon-container">
+              <svg class="icon icon--primary">
+                <use xlink:href="Images/sprite.svg#easy"></use>
+              </svg>
+            </span>
+            <h3 class="feature__heading">Super Easy To Use</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              adipisci officia dicta inventore illum similique reiciendis
+              deserunt, iure asperiores at.
+            </p>
+            <a href="#" class="link-arrow">Learn More</a>
           </div>
+          <picture>
+            <source
+              srcset="Images/easy@1x.webp 1x, Images/easy@2x.webp 2x"
+              type="image/webp" />
+            <source
+              srcset="Images/easy@1x.jpg 1x, Images/easy@2x.jpg 2x"
+              type="image/jpg" />
+            <img class="feature__image" src="Images/easy@1x.jpg" alt=""
+          /></picture>
         </div>
-        <div class="plan plan--popular">
-          <div class="card">
-            <header class="card__header card--primary">
-              <h3 class="plan__name">Entry</h3>
-              <span class="plan__price">$14</span>
-              <span class="plan__billing-cycle">/month</span>
-              <span class="badge badge--primary badge--small">10% OFF</span>
-              <span class="plan__description">East start on the cloud</span>
-            </header>
-            <div class="card__content">
-              <ul class="list list--tick">
-                <li class="list__item">Unlimited Websites</li>
-                <li class="list__item">Unlimited Bandwidth</li>
-                <li class="list__item">100 GB SSD Sotrage</li>
-                <li class="list__item">3 GB RAM</li>
-              </ul>
-              <button class="btn btn--outline btn--block">Buy Now</button>
-            </div>
+        <div class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <span class="icon-container">
+              <svg class="icon icon--primary">
+                <use xlink:href="Images/sprite.svg#computer"></use>
+              </svg>
+            </span>
+            <h3 class="feature__heading">Super Easy To Use</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              adipisci officia dicta inventore illum similique reiciendis
+              deserunt, iure asperiores at.
+            </p>
+            <a href="#" class="link-arrow">Learn More</a>
           </div>
+          <picture>
+            <source
+              srcset="Images/fast@1x.webp 1x, Images/fast@2x.webp 2x"
+              type="image/webp" />
+            <source
+              srcset="Images/fast@1x.jpg 1x, Images/fast@2x.jpg 2x"
+              type="image/jpg" />
+            <img class="feature__image" src="Images/fast@1x.jpg" alt=""
+          /></picture>
         </div>
-        <div class="plan">
-          <div class="card">
-            <header class="card__header card--secondary">
-              <h3 class="plan__name">Entry</h3>
-              <span class="plan__price">$14</span>
-              <span class="plan__billing-cycle">/month</span>
-              <span class="badge badge--secondary badge--small">10% OFF</span>
-              <span class="plan__description">East start on the cloud</span>
-            </header>
-            <div class="card__content">
-              <ul class="list list--tick">
-                <li class="list__item">Unlimited Websites</li>
-                <li class="list__item">Unlimited Bandwidth</li>
-                <li class="list__item">100 GB SSD Sotrage</li>
-                <li class="list__item">3 GB RAM</li>
-              </ul>
-              <button class="btn btn--outline btn--block">Buy Now</button>
-            </div>
+        <div class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <span class="icon-container">
+              <svg class="icon icon--primary">
+                <use xlink:href="Images/sprite.svg#wordpress"></use>
+              </svg>
+            </span>
+            <h3 class="feature__heading">Super Easy To Use</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              adipisci officia dicta inventore illum similique reiciendis
+              deserunt, iure asperiores at.
+            </p>
+            <a href="#" class="link-arrow">Learn More</a>
           </div>
+          <picture>
+            <source
+              srcset="Images/wordpress@1x.webp 1x, Images/wordpress@2x.webp 2x"
+              type="image/webp" />
+            <source
+              srcset="Images/wordpress@1x.jpg 1x, Images/wordpress@2x.jpg 2x"
+              type="image/jpg" />
+            <img class="feature__image" src="Images/wordpress@1x.jpg" alt=""
+          /></picture>
         </div>
-      </div>
-    </div>
+      </article>
+    </section>
   </body>
 </html>
