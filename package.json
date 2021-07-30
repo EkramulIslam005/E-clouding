@@ -1,0 +1,23 @@
+{
+  "name": "Moshify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EkramulIslam005/Ekana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EkramulIslam005/Ekana/issues"
+  },
+  "homepage": "https://github.com/EkramulIslam005/Ekana#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
