@@ -4,84 +4,320 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Css/styles.css" />
+    <link rel="stylesheet" href="Css/styles2.css" />
     <link rel="stylesheet" href="Css/normalize.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+
     <title>Document</title>
   </head>
   <body>
-    <section class="block block--dark block--skewed-right block-showcase">
-      <header class="block__header">  <h2 class="block__heading">User Friendly Control Panel</h2></header>
-      <div class="grid grid--1x2">
-        <picture class="block-showcase__image">
-            <source
-              srcset="Images/ipad@1x.png 1x, Images/ipad@2x.png"
-              type="image/png" />
-            <source
-              srcset="Images/ipad@1x.webp 1x, Images/ipad@2x.webp"
-              type="image/webp" />
-            <img src="Images/ipad.png" alt=""
+    <section class="block block--dark block--skewed-right hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <span>
+            <svg
+              id="logo2"
+              width="175"
+              height="70"
+              viewBox="0 0 175 70"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.48876 27.131H2.2371V2.34053H5.48876V27.131Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M23.3221 24.4578H35.0077V27.131H20.0535V2.34053H23.3221V24.4578Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M56.5669 15.536C56.5669 17.9651 56.1604 20.0877 55.3475 21.9039C54.5346 23.7087 53.383 25.0878 51.8926 26.0413C50.4023 26.9948 48.6636 27.4715 46.6764 27.4715C44.7345 27.4715 43.0127 26.9948 41.511 26.0413C40.0094 25.0764 38.8408 23.7087 38.0053 21.9379C37.1811 20.1558 36.7577 18.0956 36.7352 15.7573V13.9696C36.7352 11.5859 37.1473 9.48026 37.9715 7.65276C38.7957 5.82526 39.9586 4.4291 41.4602 3.46427C42.9732 2.48809 44.7006 2 46.6426 2C48.6184 2 50.3571 2.48241 51.8588 3.44724C53.3717 4.40072 54.5346 5.79121 55.3475 7.61871C56.1604 9.43486 56.5669 11.5518 56.5669 13.9696V15.536ZM53.3322 13.9355C53.3322 10.9956 52.7451 8.74245 51.5709 7.17603C50.3967 5.59825 48.7539 4.80936 46.6426 4.80936C44.5877 4.80936 42.9675 5.59825 41.782 7.17603C40.6078 8.74245 40.0038 10.9218 39.9699 13.7142V15.536C39.9699 18.3851 40.5626 20.6269 41.7481 22.2614C42.9449 23.8846 44.5877 24.6962 46.6764 24.6962C48.7765 24.6962 50.4023 23.93 51.5539 22.3976C52.7056 20.8539 53.2983 18.6461 53.3322 15.7744V13.9355Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M69.2348 22.7892L76.2801 2.34053H79.8366L70.6913 27.131H67.8122L58.6839 2.34053H62.2234L69.2348 22.7892Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M97.0941 15.6722H86.4076V24.4578H98.8215V27.131H83.156V2.34053H98.6522V5.0307H86.4076V12.9991H97.0941V15.6722Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M118.992 14.7868L125.428 2.34053H129.12L120.618 17.8856V27.131H117.366V17.8856L108.864 2.34053H112.59L118.992 14.7868Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M150.763 15.536C150.763 17.9651 150.357 20.0877 149.544 21.9039C148.731 23.7087 147.579 25.0878 146.089 26.0413C144.599 26.9948 142.86 27.4715 140.873 27.4715C138.931 27.4715 137.209 26.9948 135.708 26.0413C134.206 25.0764 133.037 23.7087 132.202 21.9379C131.378 20.1558 130.954 18.0956 130.932 15.7573V13.9696C130.932 11.5859 131.344 9.48026 132.168 7.65276C132.992 5.82526 134.155 4.4291 135.657 3.46427C137.17 2.48809 138.897 2 140.839 2C142.815 2 144.554 2.48241 146.055 3.44724C147.568 4.40072 148.731 5.79121 149.544 7.61871C150.357 9.43486 150.763 11.5518 150.763 13.9696V15.536ZM147.529 13.9355C147.529 10.9956 146.942 8.74245 145.767 7.17603C144.593 5.59825 142.95 4.80936 140.839 4.80936C138.784 4.80936 137.164 5.59825 135.979 7.17603C134.804 8.74245 134.2 10.9218 134.166 13.7142V15.536C134.166 18.3851 134.759 20.6269 135.945 22.2614C137.141 23.8846 138.784 24.6962 140.873 24.6962C142.973 24.6962 144.599 23.93 145.75 22.3976C146.902 20.8539 147.495 18.6461 147.529 15.7744V13.9355Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M173 2.34053V19.1967C172.989 21.535 172.255 23.4476 170.798 24.9346C169.353 26.4215 167.389 27.2558 164.905 27.4374L164.041 27.4715C161.343 27.4715 159.192 26.7394 157.588 25.2751C155.985 23.8108 155.172 21.796 155.15 19.2307V2.34053H158.368V19.1286C158.368 20.922 158.859 22.3182 159.841 23.3171C160.823 24.3046 162.223 24.7983 164.041 24.7983C165.881 24.7983 167.287 24.3046 168.258 23.3171C169.24 22.3295 169.731 20.939 169.731 19.1456V2.34053H173Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M5.26859 65.1396H16.9542V67.8127H2V43.0223H5.26859V65.1396Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M24.1519 67.8127H20.9003V43.0223H24.1519V67.8127Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M44.0345 61.3427H33.7037L31.3835 67.8127H28.0302L37.4465 43.0223H40.2917L49.7249 67.8127H46.3885L44.0345 61.3427ZM34.6859 58.6525H43.0691L38.8691 47.0575L34.6859 58.6525Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M71.9953 67.8127H68.7268L56.3129 48.7091V67.8127H53.0443V43.0223H56.3129L68.7606 62.211V43.0223H71.9953V67.8127Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M91.6916 61.3427H81.3608L79.0406 67.8127H75.6873L85.1036 43.0223H87.9488L97.382 67.8127H94.0457L91.6916 61.3427ZM82.3431 58.6525H90.7263L86.5262 47.0575L82.3431 58.6525Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+              <path
+                d="M103.716 60.8149H100.888L100.668 43.0223H103.953L103.716 60.8149ZM100.549 66.2293C100.549 65.7185 100.701 65.2928 101.006 64.9523C101.322 64.6004 101.785 64.4245 102.395 64.4245C103.005 64.4245 103.468 64.6004 103.784 64.9523C104.1 65.2928 104.258 65.7185 104.258 66.2293C104.258 66.74 104.1 67.1657 103.784 67.5062C103.468 67.8354 103.005 68 102.395 68C101.785 68 101.322 67.8354 101.006 67.5062C100.701 67.1657 100.549 66.74 100.549 66.2293Z"
+                stroke="white"
+                stroke-width="1"
+                mask="url(#path-1-outside-1)"
+              />
+            </svg>
+          </span>
+
+          <p class="hero__tagline">I Love You So Much!</p>
+          <a class="btn btn--accent btn--stretched" href="">Get Started</a>
+        </header>
+        <picture>
+          <img class="hero__image" src="Images/heart.png" alt="" />
+        </picture>
+      </div>
+    </section>
+    <section class="block container block-domain">
+      <header class="block__header">
+        <h2>My Leinnnnnnnaaaaaa</h2>
+        <p>Here Are Our's Children's Names</p>
+      </header>
+
+      <div class="input-group">
+        <input class="input" type="text" />
+        <button class="btn btn--accent">
+          <svg class="icon icon--white">
+            <use xlink:href="Images/sprite.svg#search"></use></svg
+          >Search
+        </button>
+      </div>
+      <ul class="list domain__block-prices">
+        <li>Kuddus</li>
+        <li>Sokhina</li>
+        <li>Rojina</li>
+        <li>Roksana</li>
+        <li>Kashem Jr</li>
+      </ul>
+    </section>
+    <section class="container">
+      <header class="block__header">
+        <h2>You Are So Special Bebe</h2>
+        <p>Please Never Leave Me!</p>
+      </header>
+      <article class="block">
+        <div class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <h3 class="feature__heading">I'll Never Leave You Liana</h3>
+            <p>This Time Im Just Stuck.I Cant get Over You</p>
+            <a href="#" class="link-arrow">Learn More</a>
+          </div>
+          <picture>
+            <img
+              class="feature__image"
+              src="Images/IMG_20210611_003933_193.jpg"
+              alt=""
           /></picture>
-          
+        </div>
+        <div class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <h3 class="feature__heading">
+              Im Just Crazy About You ..I just cant explain liana
+            </h3>
+            <p>
+              I never Felt this before..You can tell just by comparing the newer
+              me to the older me
+            </p>
+            <a href="#" class="link-arrow">Learn More</a>
+          </div>
+          <picture>
+            <img
+              class="feature__image"
+              src="Images/IMG_20210722_020000_628.jpg"
+              alt=""
+          /></picture>
+        </div>
+        <div class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <h3 class="feature__heading">
+              I just Need you to fix me...please fix this rudeee boiii
+            </h3>
+            <p>I know ive bad habits ...im mannerless ..but i love youuu</p>
+            <a href="#" class="link-arrow">Learn More</a>
+          </div>
+          <picture>
+            <img
+              class="feature__image"
+              src="Images/IMG_20210713_001505_809.jpg"
+              alt=""
+          /></picture>
+        </div>
+      </article>
+    </section>
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2 class="block__heading">
+          Bebe I know I'll mess things up in future but no matter what just
+          stick to me
+        </h2>
+      </header>
+      <div class="grid grid--1x2 container">
+        <picture class="block-showcase__image">
+          <img src="Images/IMG_20210722_015957_499.jpg" alt=""
+        /></picture>
         <ul class="list">
           <li>
             <div class="media">
-                
-                <div class="media__image">
-                    <svg class="icon icon--primary">
-                      <use xlink:href="images/sprite.svg#snap"></use>
-                    </svg>
-                  </div>
               <div class="media__body">
-                <h3 class="media__title">Easy Start & Managed Updates</h3>
+                <h3 class="media__title">Just Trust Me With Everything</h3>
                 <p class="media__content">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
-                  vel perspiciatis consequuntur ab.
+                  I'll try to keep your trust with my Everything
                 </p>
               </div>
             </div>
           </li>
           <li>
             <div class="media">
-                <div class="media__image">
-                    <svg class="icon icon--primary">
-                      <use xlink:href="images/sprite.svg#snap"></use>
-                    </svg>
-                  </div>
               <div class="media__body">
-                <h3 class="media__title">Dynamic Caching & More</h3>
-                <p class="media__content">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
-                  vel perspiciatis consequuntur ab.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="media">
-                <div class="media__image">
-                    <svg class="icon icon--primary">
-                      <use xlink:href="images/sprite.svg#snap"></use>
-                    </svg>
-                  </div>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Dynamic Caching & More</h3>
-                <p class="media__content">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
-                  vel perspiciatis consequuntur ab.
-                </p>
+                <h3 class="media__title">Just Love me with every thing</h3>
+                <p class="media__content">Ill love you with Everything</p>
               </div>
             </div>
           </li>
         </ul>
+      </div>
+    </section>
+    <section class="block">
+      <header class="block__header">
+        <h2>Im Sorry For Everything Bebe</h2>
+        <p>Im never gonna leave you bebe.. I promise</p>
+      </header>
+      <div class="container">
+        <div class="card">
+          <div class="grid grid--1x2 testimonial">
+            <div class="testimonial__image">
+              <img
+                src="Images/IMG_20210622_235334_609.jpg"
+                alt=" A smiling face"
+              />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white">
+                  <use xlink:href="Images/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+            </div>
+            <div class="testimonial__quote">
+              <blockquote class="quote">
+                <p class="quote__text">
+                  Bebe What i did with you in the past...Im just Sorry For that
+                  ...but im truly into you ...like i criedd.... Me!!!!the rude
+                  cold hearted one...just hold on to me...ill keep us together!!
+                </p>
+                <footer>
+                  <div class="media">
+                    <div class="media__image">
+                      <svg class="icon icon--primary quote__line">
+                        <use xlink:href="images/sprite.svg#line"></use>
+                      </svg>
+                    </div>
+                    <div class="media__body">
+                      <h3 class="media__title quote__author">Ekramul Islam</h3>
+                      <p class="quote__organization">TO Mahzabin Liana</p>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block-footer block block--dark">
+      <div class="footer block block--dark">
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">What I need</h3>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="Images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li class="list__item">Love</li>
+              <li class="list__item">Care</li>
+              <li class="list__item">Attention</li>
+              <li class="list__item">Priority</li>
+            </ul>
+          </div>
+        </div>
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h3 class="collapsible__heading footer__heading">
+              What you'll get
+            </h3>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="Images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li class="list__item">Me Myself</li>
+              <li class="list__item">Love</li>
+              <li class="list__item">Everything till my death</li>
+            </ul>
+          </div>
+        </div>
+
+        <script src="main.js"></script>
+      </div>
+      <div class="footer__image">
+        <img src="Images/logo.png" alt="" />
+        <p>Copyright&copy;Ekramul Islam & Mahzabin Liana</p>
       </div>
     </section>
   </body>
